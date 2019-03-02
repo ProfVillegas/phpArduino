@@ -9,7 +9,7 @@ error_reporting(E_ALL);
 
     // First we must specify the device. This works on both Linux and Windows (if
     // your Linux serial device is /dev/ttyS0 for COM1, etc.)
-    $serial->deviceSet("COM4");
+    $serial->deviceSet("COM5");
 
     // Set for 9600-8-N-1 (no flow control)
     $serial->confBaudRate(9600); //Baud rate: 9600
