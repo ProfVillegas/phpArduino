@@ -23,6 +23,7 @@
         <input type="hidden" name="section" value="45" />
         <input type="submit" value="Enviar" name="enviar" />    
     </form>
+    <?php
         if($_POST){
             print_r($_POST);
         }
